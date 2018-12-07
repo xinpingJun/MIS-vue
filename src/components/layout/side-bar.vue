@@ -10,7 +10,7 @@
                   <img src="../../assets/images/faces/face1.jpg" alt="profile image">
                 </div>
                 <div class="text-wrapper">
-                  <p class="profile-name">马云</p>
+                  <p class="profile-name">令狐冲</p>
                   <div>
                     <small class="designation text-muted">超级管理员</small>
                     <span class="status-indicator online"></span>
@@ -23,10 +23,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="menu-icon mdi mdi-television"></i>
-              <span class="menu-title">仪表盘</span>
-            </a>
+              <router-link  class="nav-link" to="/">
+                  <i class="menu-icon mdi mdi-television"></i>
+                  <span class="menu-title">首页</span>
+              </router-link>  
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -37,37 +37,39 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="/">按钮</a>
+                 <router-link  class="nav-link" to="/ui/button">按钮</router-link>  
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/">文本</a>
+                 <router-link  class="nav-link" to="/ui/typography">文本</router-link>  
                 </li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            <router-link  class="nav-link" to="/form/index">
               <i class="menu-icon mdi mdi-backup-restore"></i>
               <span class="menu-title">表单元素</span>
-            </a>
+            </router-link>  
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            
+            <router-link  class="nav-link" to="/chart/index">
               <i class="menu-icon mdi mdi-chart-line"></i>
               <span class="menu-title">图表</span>
-            </a>
+            </router-link >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            <router-link  class="nav-link" to="/table/index">
               <i class="menu-icon mdi mdi-table"></i>
               <span class="menu-title">表格</span>
-            </a>
+            </router-link >
+  
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            <router-link  class="nav-link" to="/icons/index">
               <i class="menu-icon mdi mdi-sticker"></i>
               <span class="menu-title">图标</span>
-            </a>
+            </router-link >
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
@@ -78,19 +80,16 @@
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="/">空白页</a>
+                  <router-link  class="nav-link" to="/login"> 登陆页 </router-link >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/"> 登陆页 </a>
+                  <router-link  class="nav-link" to="/register"> 注册页面 </router-link >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/"> 注册页面 </a>
+                  <router-link  class="nav-link" to="/404"> 404 </router-link >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/"> 404 </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/"> 500 </a>
+                  <router-link  class="nav-link" to="/500"> 500 </router-link >
                 </li>
               </ul>
             </div>

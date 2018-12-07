@@ -10,12 +10,12 @@
              </div>
              <div class="col-lg-6 error-page-divider text-lg-left pl-lg-4">
                <h2>抱歉!</h2>
-               <h3 class="font-weight-light">Internal server error!</h3>
+               <h3 class="font-weight-light">服务器出错了!</h3>
              </div>
            </div>
            <div class="row mt-5">
              <div class="col-12 text-center mt-xl-2">
-               <a class="text-white font-weight-medium" href="../../index.html">返回首页</a>
+               <a class="text-white font-weight-medium" href="/">返回首页</a>
              </div>
            </div>
            <div class="row mt-5">
