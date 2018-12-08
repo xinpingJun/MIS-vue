@@ -13,7 +13,7 @@ module.exports = {
 
   },
 
-  baseUrl: './',
+  baseUrl: '',
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
